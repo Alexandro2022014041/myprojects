@@ -1,0 +1,97 @@
+.boxMain {
+    position: relative;
+    margin-left: 300px;
+    margin-right: 400px;
+}
+
+.boxProduto input {
+    position: absolute;
+    width: 499px;
+    height: 20px;
+    left: 402px;
+    top: 125px;
+}
+
+.lbProduto{
+    position: absolute;
+    width: 150px;
+    height: 19px;
+    left: 402px;
+    top: 106px;
+}
+
+.main {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.main h1{
+    position: relative;
+    margin-left: 450px;
+}
+
+.qtv {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.qtv input {
+    width: 100%;
+}
+
+.boxQuantidade{
+    position: absolute;
+    width: 235px;
+    height: 38px;
+    left: 402px;
+    top: 197px;
+}
+
+.boxValor{
+    position: absolute;
+    width: 235px;
+    height: 38px;
+    left: 666px;
+    top: 197px;
+}
+
+input[type="text"] {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+  }
+  
+/* Estilo para os botões */
+.boxButtonAdd{
+    text-align: center;
+    position: absolute;
+    width: 122px;
+    height: 38px;
+    left: 533px;
+    top: 260px;
+    background: #33BA51;
+    border-radius: 5px;
+}
+
+.boxButtonClean{
+    text-align: center;
+    position: absolute;
+    width: 122px;
+    height: 38px;
+    left: 666px;
+    top: 260px;
+    background: #BA3333;
+    border-radius: 5px;
+}
+
+/*estilo para os itens*/
+.boxLista{
+    box-sizing: border-box;
+    position: absolute;
+    width: 773px;
+    height: 67px;
+    left: 257px;
+    top: 320px;
+}
