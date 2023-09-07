@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "AtividadeIII",
-    "slug": "AtividadeIII",
+    "name": "react-sqlite",
+    "slug": "react-sqlite",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
