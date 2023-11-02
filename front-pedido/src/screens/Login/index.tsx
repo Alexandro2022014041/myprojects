@@ -25,7 +25,7 @@ export const Login = () => {
     return(
         <Container>
             <Input value={username} onChangeText={setUsername}/>
-            <Input value={password} onChangeText={setPassword}/>
+            <Input keyboardType='visible-password' value={password} onChangeText={setPassword}/>
             <Button onPress={handleLogin} title='login'></Button>
         </Container>
     )
